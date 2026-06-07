@@ -48,3 +48,89 @@ Date:   Sun Jun 7 23:12:55 2026 +0300
 PS D:\Learn coding LLM\projects\git test>
 ```
 
+download git project
+```git
+git clone https://github.com/user/repo.git
+```
+9. Show Branches
+```
+git branch
+```
+List local branches.
+
+10. Create Branch
+```
+git branch new-feature
+```
+11. Switch Branch
+```
+git checkout main
+```
+
+or modern version:
+```
+git switch main
+```
+
+
+
+13. Rename Branch
+```
+git branch -M main
+```
+Rename current branch.
+
+14. Delete Branch
+```
+git branch -d old-branch
+```
+
+Delete local branch.
+
+15. Add Remote Repository
+```
+git remote add origin https://github.com/user/repo.git
+```
+
+Connect local repo to GitHub.
+
+
+
+16. View Remote URLs
+```
+git remote -v
+```
+
+Show linked repositories.
+
+
+17. Push to GitHub
+```
+git push -u origin main
+```
+
+Upload code.
+
+18. Pull Latest Changes
+```
+git pull
+```
+Download + merge updates.
+
+19. Fetch Without Merge
+```
+git fetch
+```
+Download updates only.
+
+20. Merge Branch
+```
+git merge feature-login
+```
+Combine branches.
+
+21. Rebase Branch
+```
+git rebase main
+```
+Replay commits on top of another branch.

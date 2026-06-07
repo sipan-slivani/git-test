@@ -1,1 +1,6 @@
 print("hii")
+print("hello")
+print("welcome to python programming")
+print("python is a great language")
+print("python is easy to learn")
+print("python is used for web development")
